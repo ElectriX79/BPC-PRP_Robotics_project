@@ -1,0 +1,33 @@
+# ===== CMake =====
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ===== ROS (catkin) =====
+devel/
+install/
+log/
+
+# ===== ROS2 (colcon) =====
+build/
+install/
+log/
+
+# ===== Python (ak máš ROS Python nodes) =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== OS súbory =====
+.DS_Store
+Thumbs.db
+
+# ===== Environment =====
+.env
